@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page - SocialBook</title>
+    <script src="https://kit.fontawesome.com/28c60103ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+         <!-- ------------settings-menu------------ -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-proflie">
+                    <img src="images/profile-pic.png" alt="profile image">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-proflie">
+                    <img src="images/feedback.png" alt="feedback image">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" alt="setting image" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" alt="arrow image" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/help.png" alt="setting image" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" alt="arrow image" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/display.png" alt="setting image" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" alt="arrow image" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/logout.png" alt="setting image" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" alt="arrow image" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- --------------profile page------------ -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" alt="covre image" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" alt="profile image" class="pd-image">
+                <div>
+                <h3>Jack Nicholson</h3>
+                <p>120 Friend - 20 mutual</p>
+                <img src="images/member-1.png" alt="member-1 image">
+                <img src="images/member-2.png" alt="member-2 image">
+                <img src="images/member-3.png" alt="member-3 image">
+                <img src="images/member-4.png" alt="member-4 image">
+            </div>
+        </div>
+    </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png" alt="add-friends image"> Friend</button>
+                <button type="text" ><img src="images/message.png" alt="add-friends image"> Message</button>
+                <br>
+                <a href=""><img src="images/more.png" alt="more image"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in yourself and you can do unbelievable things. <img src="images/feeling.png" alt="feeling image"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt="profile-job image"> Director at 99media Ltd</li>
+                        <li><img src="images/profile-study.png" alt="profile-study image"> Studied at Amity University</li>
+                        <li><img src="images/profile-study.png" alt="profile-study image"> Went to DPS Delhi</li>
+                        <li><img src="images/profile-home.png" alt="profile-home image"> Lives in Bnagalore, Indua</li>
+                        <li><img src="images/profile-location.png" alt="profile-location image"> From Bangalore, India</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt="photo1 image"></div>
+                        <div><img src="images/photo2.png" alt="photo2 image"></div>
+                        <div><img src="images/photo3.png" alt="photo3 image"></div>
+                        <div><img src="images/photo4.png" alt="photo4 image"></div>
+                        <div><img src="images/photo5.png" alt="photo5 image"></div>
+                        <div><img src="images/photo6.png" alt="photo6 image"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="">All Friends</a>
+                    </div>
+                    <p>120 (25 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" alt="member-1 image"><p>Joseph N</p></div>
+                        <div><img src="images/member-2.png" alt="member-2 image">Nathan N</div>
+                        <div><img src="images/member-3.png" alt="member-3 image">Georeg D</div>
+                        <div><img src="images/member-4.png" alt="member-4 image">Freancis L</div>
+                        <div><img src="images/member-5.png" alt="member-5 image">Anthony E</div>
+                        <div><img src="images/member-6.png" alt="member-6 image">Michal A</div>
+                        <div><img src="images/member-7.png" alt="member-7 image">Edward M</div>
+                        <div><img src="images/member-8.png" alt="member-8 image">Bradon c</div>
+                        <div><img src="images/member-9.png" alt="member-9 image">James Doe</div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-proflie">
+                        <img src="images/profile-pic.png" alt="profile image">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="what's on your mind, Jhon"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="video image">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="photo image">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="feeling image">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-proflie">
+                            <img src="images/profile-pic.png" alt="profile image">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>December 4 2022, 10:45 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    
+                    <p class="post-text">A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy birthday! <a href="#">#Bhai Ka Birthday</a> <a href="#">#YouTubeChannel</a></p>
+                    <img src="images/feed-image-1.png" alt="feed image" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="like-blue image"> 102</div>
+                            <div><img src="images/comments.png" alt="comments image"> 32</div>
+                            <div><img src="images/share.png" alt="share image"> 15</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="images/profile-pic.png" alt="profile image"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-proflie">
+                            <img src="images/profile-pic.png" alt="profile image">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>December 4 2022, 10:45 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Surrounded by ice-capped mountains of the Himalayan ranges and Karakoram. And with endless stretches of natural beauty at its pristine stage, Leh Ladakh is the perfect getaway if you want to experience a new culture and environment. To truly experience the rich culture and the beautiful landscape, you should never miss out on a trip to Ladakh.! <a href="#">#Bhai Ka Birthday</a> <a href="#">#YouTubeChannel</a></p>
+                    <img src="images/feed-image-2.png" alt="feed image" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="like image"> 212</div>
+                            <div><img src="images/comments.png" alt="comments image"> 43</div>
+                            <div><img src="images/share.png" alt="share image"> 26</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="images/profile-pic.png" alt="profile image"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-proflie">
+                            <img src="images/profile-pic.png" alt="profile image">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>December 4 2022, 10:45 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Surrounded by ice-capped mountains of the Himalayan ranges and Karakoram. And with endless stretches of natural beauty at its pristine stage, Leh Ladakh is the perfect getaway if you want to experience a new culture and environment. To truly experience the rich culture and the beautiful landscape, you should never miss out on a trip to Ladakh.! <a href="#">#Bhai Ka Birthday</a> <a href="#">#YouTubeChannel</a></p>
+                    <img src="images/feed-image-3.png" alt="feed image" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="like image"> 156</div>
+                            <div><img src="images/comments.png" alt="comments image"> 69</div>
+                            <div><img src="images/share.png" alt="share image"> 45</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="images/profile-pic.png" alt="profile image"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-proflie">
+                            <img src="images/profile-pic.png" alt="profile image">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>December 4 2022, 10:45 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Surrounded by ice-capped mountains of the Himalayan ranges and Karakoram. And with endless stretches of natural beauty at its pristine stage, Leh Ladakh is the perfect getaway if you want to experience a new culture and environment. To truly experience the rich culture and the beautiful landscape, you should never miss out on a trip to Ladakh.! <a href="#">#Bhai Ka Birthday</a> <a href="#">#YouTubeChannel</a></p>
+                    <img src="images/feed-image-4.png" alt="feed image" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="like image"> 245</div>
+                            <div><img src="images/comments.png" alt="comments image"> 57</div>
+                            <div><img src="images/share.png" alt="share image"> 30</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="images/profile-pic.png" alt="profile image"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2022 - Easy Tutorial YouTube Channel</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+    
